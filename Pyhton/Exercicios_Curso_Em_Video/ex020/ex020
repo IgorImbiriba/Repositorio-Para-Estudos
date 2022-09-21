@@ -1,0 +1,11 @@
+from random import shuffle
+# aqui a shuffle() serve para embaralhar a lista
+a1 = input('Digite o nome do 1º aluno: ')
+a2 = input('Digite o nome do 2º aluno: ')
+a3 = input('Digite o nome do 3º aluno: ')
+a4 = input('Digite o nome do 4º alumo: ')
+turma = [a1, a2, a3, a4]
+shuffle(turma) # aqui so embaralha a lista 'turma'
+print('a ordem dos nomes é a seguinte: 1°-{0[0]}, 2°-{0[1]}, 3°-{0[2]}, 4°-{0[3]}'
+      .format(turma)) # no format eu utilizo apenas uma variavel/argumento 
+      # pois no argumento posso chamar o valor por {index_Variavel[index_lista]}
