@@ -28,4 +28,4 @@ if dist <= 200:
 else:
     val = 0.45 * dist
     print('Voce vai viajar por {:.2f} km, a passagem vai custar R${:.2f}'
-          .format(dist, val))  
+          .format(dist, val))
