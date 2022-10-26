@@ -1,7 +1,6 @@
 
 public class TestaValores {
-		public static void main(String[] args) 
-		{//main -> ctrl + espaço
+		public static void main(String[] args) { //main -> ctrl + espaço
 			int primeiro = 5;
 			int segundo = 7;
 			segundo = primeiro;

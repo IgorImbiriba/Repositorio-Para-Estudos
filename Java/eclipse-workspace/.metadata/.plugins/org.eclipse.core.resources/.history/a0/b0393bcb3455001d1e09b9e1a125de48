@@ -1,0 +1,16 @@
+
+public class TestaCondicional {
+	public static void main(String[] args) {
+		System.out.println("Testando condicionais");
+		// sysout -> crtl + espaÃ§o
+
+		int idade = 32;
+
+		if (idade >= 20) {
+			System.out.println("Você tem 18 anos ou mais");
+			System.out.println("Seja bem-vindo");
+		}else {
+			System.out.println("Infelizmente você nao pode entrar");
+		}
+	}
+}
